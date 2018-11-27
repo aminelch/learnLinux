@@ -12,10 +12,13 @@
 		
 		locate essai1.txt
 
-- Après la reconstruction de base de données des fichiers avec la commande **updatedb** la recherche devienne quasiment vite 
+- Après la reconstruction de base de données des fichiers avec la commande **updatedb** la recherche devienne quasiment vite .
+
+		sudo updatedb
 
 #### find
 **terminal:**
+
 	    find .h /usr/include
 
 **l'output :**
@@ -73,13 +76,15 @@ Obtenir le résultat précédent page par page
 
 #### grep, cut, uniq, sort et tubes
 
-##### la commande cut 
+- la commande cut 
  
  cut - remove sections from each line of files
  
-##### la commande uniq
- 
+- la commande uniq
+
  uniq - report or omit repeated lines
- 
-	grep "/home/$username" /etc/passwd
-	
+
+- la commande
+
+		grep "/home/$username" < /etc/passwd
+
